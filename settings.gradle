@@ -1,2 +1,4 @@
+include ':lib-image-loaderx'
+include ':lib-image-loader'
 include ':app'
 rootProject.name = "LibraryRepository"
