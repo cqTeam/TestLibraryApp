@@ -1,6 +1,4 @@
-[submodule "lib-image-loader"]
-	path = lib-image-loader
-	url = git@github.com:cqTeam/lib-image-loader.git
+
 [submodule "lib-image-loaderx"]
 	path = lib-image-loaderx
 	url = git@github.com:cqTeam/lib-image-loaderx.git
