@@ -1,0 +1,3 @@
+[submodule "lib-image-loader"]
+	path = lib-image-loader
+	url = git@github.com:cqTeam/lib-image-loader.git
