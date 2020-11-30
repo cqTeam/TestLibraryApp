@@ -1,3 +1,4 @@
+include ':lib-androidx-mvvm'
 include ':lib-image-loaderx'
 include ':app'
 rootProject.name = "LibraryRepository"
