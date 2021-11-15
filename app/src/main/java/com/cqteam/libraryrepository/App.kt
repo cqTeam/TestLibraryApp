@@ -2,6 +2,7 @@ package com.cqteam.libraryrepository
 
 import android.app.Application
 import com.cqteam.imageloaderx.ImageLoaderManager
+import com.cqteam.lib_androidx_mvvm.MvvmManager
 
 /**
  * Author： 洪亮
@@ -14,5 +15,6 @@ class App: BaseApplication() {
     override fun onCreate() {
         super.onCreate()
         ImageLoaderManager.init(this,ImageLoaderManager.Loader_Glide)
+        MvvmManager.setApplication(this)
     }
 }

@@ -3,4 +3,4 @@
 	url = git@github.com:cqTeam/lib-image-loaderx.git
 [submodule "lib-androidx-mvvm"]
 	path = lib-androidx-mvvm
-	url = ./lib-androidx-mvvm/
+	url = git@github.com:cqTeam/lib-androidx-mvvm.git

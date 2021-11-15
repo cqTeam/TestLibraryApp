@@ -1,5 +1,6 @@
 package com.cqteam.libraryrepository
 
+import android.content.Intent
 import com.cqteam.imageloaderx.ImageLoader
 import com.cqteam.lib_androidx_mvvm.view.activity.BaseActivity
 import com.cqteam.libraryrepository.databinding.ActivityMainBinding
@@ -15,7 +16,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     }
 
     override fun initView() {
-
+        mViewBinding.nameTv.setOnClickListener{
+            val intent = Intent(this,MvvmActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun initData() {
